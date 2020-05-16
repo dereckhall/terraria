@@ -23,6 +23,7 @@ RUN mkdir /tmp/terraria && \
     if [ ! -f /vanilla/TerrariaServer ]; then echo "Missing /vanilla/TerrariaServer"; exit 1; fi
 
 COPY run-vanilla.sh /vanilla/run.sh
+RUN chmod +x /vanilla/run.sh
 
 # Commit Hash Metadata
 ARG VCS_REF
