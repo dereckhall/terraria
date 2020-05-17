@@ -8,8 +8,8 @@ set -euo pipefail
 #####
 
 # Settings
-CI_REGISTRY_IMAGE="dereckhall/terraria"
-LATEST_FOLDER="tshock"
+CI_REGISTRY_IMAGE="dereckh/terraria"
+LATEST_FOLDER="vanilla"
 
 # Colorize me baby
 green() { printf '\e[1;32m%b\e[0m\n' "$@"; }
