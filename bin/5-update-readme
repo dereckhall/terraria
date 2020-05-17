@@ -22,8 +22,11 @@ except ImportError:
 # Repository name
 repo = "terraria"
 
-# Repository Slug
+# Docker Repository Slug
 slug = "dereckh/terraria"
+
+# Github Repository Slub
+gslug = "dereckhall/terraria"
 
 # The folder that is tagged "latest"
 latest_folder = "tshock"
@@ -91,7 +94,7 @@ for filepath in sorted(glob.iglob(repodir+'/containers/*/*/Dockerfile'), reverse
         if latest_folder == folder:
             tags += ", latest"
 
-    tags += " [(containers/"+folder+"/"+version+"/Dockerfile)](https://github.com/"+slug+"/blob/master/containers/"+folder+"/"+version+"/Dockerfile)"
+    tags += " [(containers/"+folder+"/"+version+"/Dockerfile)](https://github.com/"+gslug+"/blob/master/containers/"+folder+"/"+version+"/Dockerfile)"
     tags += "\n"
 tags = tags.strip()
 
