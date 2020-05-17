@@ -1,0 +1,5 @@
+# Update Git
+cd /root/tsource/terraria
+git add -A .
+git commit -m "hmm"
+git push -u origin master
