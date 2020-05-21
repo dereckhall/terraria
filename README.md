@@ -15,7 +15,8 @@ docker create -it \
 Docker Images are avaiable on [Docker Hub](https://hub.docker.com/repository/docker/dereckh/terraria)
 
 ### Supported tags and respective `Dockerfile` links
-* vanilla-1.4.0.2, vanilla-latest [(containers/vanilla/1.4.0.2/Dockerfile)](https://github.com/dereckhall/terraria/blob/master/containers/vanilla/1.4.0.2/Dockerfile)
+* vanilla-1.4.0.3, vanilla-latest [(containers/vanilla/1.4.0.3/Dockerfile)](https://github.com/dereckhall/terraria/blob/master/containers/vanilla/1.4.0.3/Dockerfile)
+* vanilla-1.4.0.2 [(containers/vanilla/1.4.0.2/Dockerfile)](https://github.com/dereckhall/terraria/blob/master/containers/vanilla/1.4.0.2/Dockerfile)
 * vanilla-1.4.0.1 [(containers/vanilla/1.4.0.1/Dockerfile)](https://github.com/dereckhall/terraria/blob/master/containers/vanilla/1.4.0.1/Dockerfile)
 
 ### Quick reference
