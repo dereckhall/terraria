@@ -5,7 +5,7 @@ docker create -it \
   -v <path to data>:/config \
   -e world=<world_file_name> \
   -p 7777:7777 \
-  dereckh/terraria
+  dereckh/terraria:vanilla-latest
 ```
 
 Docker Images are avaiable on [Docker Hub](https://hub.docker.com/repository/docker/dereckh/terraria)
@@ -34,7 +34,7 @@ To run with out user intervention Terraria Server needs to be configure to use a
 sudo docker run -it -p 7777:7777 \
     -v $HOME/terraria/config:/config \
     --name=terraria \
-    dereckh/terraria
+    dereckh/terraria:vanilla-latest
 ```
 You can then follow the prompts to create a new world.
 
@@ -47,7 +47,7 @@ sudo docker run -dit \
   -v $HOME/terraria/config:/config \
   -e world=<world_file_name> \
   -p 7777:7777 \
-  dereckh/terraria
+  dereckh/terraria:vanilla-latest
 ```
 
 If you get an error from docker saying the container name already exists, it means you need to remove your old docker container process.
