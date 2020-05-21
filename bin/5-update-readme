@@ -29,13 +29,19 @@ slug = "dereckh/terraria"
 gslug = "dereckhall/terraria"
 
 # The folder that is tagged "latest"
-latest_folder = "tshock"
+latest_folder = "vanilla"
+
+f=open("/root/tsource/terraria/containers/vanilla/latest", "r")
+if f.mode == 'r':
+   desc =f.read()
+
+
 
 # Docker Hub Description, Limit 100 Characters
-short_description = "Docker images to run a Terraria Server. Images with Vanilla Server are available."
+short_description = "Docker images to run a Terraria Server. Latest "+desc+" images with Vanilla Server are available."
 
 # Full description used in the readme.md
-full_description = "Docker images to run a Terraria Server. Images with [Vanilla Server](https://terraria.gamepedia.com/Server) are available."
+full_description = "Docker images to run a Terraria Server. Latest "+desc+" images with [Vanilla Server](https://terraria.gamepedia.com/Server) are available."
 
 
 
