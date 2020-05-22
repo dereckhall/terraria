@@ -1,8 +1,0 @@
-# Update Git
-
-VERSION=$(cat /root/tsource/terraria/containers/vanilla/latest)
-
-cd /root/tsource/terraria
-git add -A .
-git commit -m "$VERSION"
-git push -u origin master
