@@ -1,6 +1,6 @@
 # terraria
 
-Docker images to run a Terraria Server. Latest 1.4.3.1 images with [Vanilla Server](https://terraria.gamepedia.com/Server) are available.
+Docker images to run a Terraria Server. Latest 1.4.3.2 images with [Vanilla Server](https://terraria.gamepedia.com/Server) are available.
 
 ### Usage
 ```
@@ -16,7 +16,8 @@ Docker Images are avaiable on [Docker Hub](https://hub.docker.com/repository/doc
 
 ### Supported tags and respective `Dockerfile` links
 * vanilla-1.4.3 [(containers/vanilla/1.4.3/Dockerfile)](https://github.com/dereckhall/terraria/blob/master/containers/vanilla/1.4.3/Dockerfile)
-* vanilla-1.4.3.1, vanilla-latest, latest [(containers/vanilla/1.4.3.1/Dockerfile)](https://github.com/dereckhall/terraria/blob/master/containers/vanilla/1.4.3.1/Dockerfile)
+* vanilla-1.4.3.2, vanilla-latest, latest [(containers/vanilla/1.4.3.2/Dockerfile)](https://github.com/dereckhall/terraria/blob/master/containers/vanilla/1.4.3.2/Dockerfile)
+* vanilla-1.4.3.1 [(containers/vanilla/1.4.3.1/Dockerfile)](https://github.com/dereckhall/terraria/blob/master/containers/vanilla/1.4.3.1/Dockerfile)
 * vanilla-1.4.2 [(containers/vanilla/1.4.2/Dockerfile)](https://github.com/dereckhall/terraria/blob/master/containers/vanilla/1.4.2/Dockerfile)
 * vanilla-1.4.2.3 [(containers/vanilla/1.4.2.3/Dockerfile)](https://github.com/dereckhall/terraria/blob/master/containers/vanilla/1.4.2.3/Dockerfile)
 * vanilla-1.4.2.2 [(containers/vanilla/1.4.2.2/Dockerfile)](https://github.com/dereckhall/terraria/blob/master/containers/vanilla/1.4.2.2/Dockerfile)
