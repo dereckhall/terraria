@@ -10,11 +10,11 @@ RUN apt-get update && \
 RUN favorites_path="/root/My Games/Terraria" && mkdir -p "$favorites_path" && echo "{}" > "$favorites_path/favorites.json"
 
 # Download and install TShock
-ENV VANILLA_VERSION=1433
+ENV VANILLA_VERSION=1435
 
 RUN mkdir /tmp/terraria && \
     cd /tmp/terraria && \
-    curl -sL http://terraria.org/server/terraria-server-$VANILLA_VERSION.zip --output terraria-server.zip && \
+    curl -sL https://terraria.org/api/download/pc-dedicated-server/terraria-server-1435.zip --output terraria-server.zip && \
     unzip -q terraria-server.zip && \
     mv */Linux /vanilla && \
     mv */Windows/serverconfig.txt /vanilla/serverconfig-default.txt && \
